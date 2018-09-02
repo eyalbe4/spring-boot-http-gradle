@@ -1,6 +1,6 @@
 pipeline {
     agent {
-      label "master"
+      label "jenkins-gradle"
     }
     environment {
       ORG               = 'yahavi'
